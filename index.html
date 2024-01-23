@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="img/Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form SpencerandCarter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <img src="img/SPENCER.jpg" class="logo" alt="" />
+          <h3 class="title"><strong>Spendi il giusto?</strong></h3>
+          <p class="text">
+            Vuoi sapere se paghi il giusto per la garanzia insolvenze e fallimento?<br><strong>Compila il form.</strong>
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Via Giovanni Durando 39, Milano</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>info@spencerandcarter.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>+39 02 80898817</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Seguici su :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/SpencerandCarter">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/spencerandcarterinsurancebroker/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+            <h3 class="title">Contattaci</h3>
+            <div class="input-container">
+              <input type="hidden" name="access_key" value="c4de7645-4905-4398-ad8b-618765da5227">
+              <input type="text" name="name" class="input" />
+              <label for="">Nome</label>
+              <span>Nome</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Telefono</label>
+              <span>Telefono</span>
+            </div>
+            <div class="input-container">
+              <select name="Fornitore" class="select-box">
+                <option value="Nobis">Nobis</option>
+                <option value="Revo">Revo</option>
+                <option value="Garanzia Viaggi">Garanzia Viaggi</option>
+                <option value="Vacanze Felici">Vacanze Felici</option>
+                <option value="Sos Il Salvagente">Sos Il Salvagente</option>
+                <option value="Astoi">Astoi</option>
+                <option value="Secure Travel">Secure Travel</option>
+                <option value="Vacanze Garantite">Vacanze Garantite</option>
+              </select>
+            </div>
+            <input type="submit" value="Invia" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
