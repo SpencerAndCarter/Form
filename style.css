@@ -256,6 +256,10 @@ textarea.input {
   transition: 0.3s;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .social-icons a:hover {
   transform: scale(1.05);
 }
